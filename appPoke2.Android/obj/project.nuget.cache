@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zPLM+m5h8APkbSswoiAOjMM7hy/gqwKNO7jKKxbo465H8WYa/cSIcUh7rQVDA2gU7iEnPk0Lgvjz1AuxOqUTgA==",
+  "dgSpecHash": "OYlY79B+L9yWpyCnyCY+Xi/A6kzBRkqwXR7KBn1IRO1XbcP61/85dk2yqHReW/FXoKJ/ysGiY27bXrkO2RR/Lw==",
   "success": true,
   "projectFilePath": "C:\\Users\\natha\\Documents\\Cours\\annee2bis\\semestre4\\appPoke2\\appPoke2\\appPoke2.Android\\appPoke2.Android.csproj",
   "expectedPackageFiles": [
@@ -78,5 +78,26 @@
     "C:\\Users\\natha\\.nuget\\packages\\xamarin.google.android.material\\1.4.0.2\\xamarin.google.android.material.1.4.0.2.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Passage à une version antérieure du package détecté : Xamarin.Essentials de 1.7.1 à 1.7.0. Référencez le package directement à partir du projet pour sélectionner une version différente. \r\n appPoke2.Android -> appPoke2 -> Xamarin.Essentials (>= 1.7.1) \r\n appPoke2.Android -> Xamarin.Essentials (>= 1.7.0)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "MonoAndroid,Version=v12.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Passage à une version antérieure du package détecté : Xamarin.Forms de 5.0.0.2337 à 5.0.0.2196. Référencez le package directement à partir du projet pour sélectionner une version différente. \r\n appPoke2.Android -> appPoke2 -> Xamarin.Forms (>= 5.0.0.2337) \r\n appPoke2.Android -> Xamarin.Forms (>= 5.0.0.2196)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v12.0"
+      ]
+    }
+  ]
 }

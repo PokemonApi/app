@@ -12,3 +12,4 @@ C:\Users\natha\Documents\Cours\annee2bis\semestre4\appPoke2\appPoke2\appPoke2\ob
 C:\Users\natha\Documents\Cours\annee2bis\semestre4\appPoke2\appPoke2\appPoke2\obj\Debug\netstandard2.0\appPoke2.dll
 C:\Users\natha\Documents\Cours\annee2bis\semestre4\appPoke2\appPoke2\appPoke2\obj\Debug\netstandard2.0\ref\appPoke2.dll
 C:\Users\natha\Documents\Cours\annee2bis\semestre4\appPoke2\appPoke2\appPoke2\obj\Debug\netstandard2.0\appPoke2.pdb
+C:\Users\natha\Documents\Cours\annee2bis\semestre4\appPoke2\appPoke2\appPoke2\obj\Debug\netstandard2.0\appPoke2.csproj.AssemblyReference.cache

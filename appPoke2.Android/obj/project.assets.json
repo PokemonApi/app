@@ -1712,8 +1712,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "PokeApiNet": "3.0.3",
-          "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Essentials": "1.7.1",
+          "Xamarin.Forms": "5.0.0.2337"
         },
         "compile": {
           "bin/placeholder/appPoke2.dll": {}
@@ -3806,5 +3806,27 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Passage à une version antérieure du package détecté : Xamarin.Essentials de 1.7.1 à 1.7.0. Référencez le package directement à partir du projet pour sélectionner une version différente. \r\n appPoke2.Android -> appPoke2 -> Xamarin.Essentials (>= 1.7.1) \r\n appPoke2.Android -> Xamarin.Essentials (>= 1.7.0)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "MonoAndroid,Version=v12.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Passage à une version antérieure du package détecté : Xamarin.Forms de 5.0.0.2337 à 5.0.0.2196. Référencez le package directement à partir du projet pour sélectionner une version différente. \r\n appPoke2.Android -> appPoke2 -> Xamarin.Forms (>= 5.0.0.2337) \r\n appPoke2.Android -> Xamarin.Forms (>= 5.0.0.2196)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v12.0"
+      ]
+    }
+  ]
 }

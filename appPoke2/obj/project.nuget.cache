@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EvJdP0fGkhcTc9VzLcGV5UPrM1ZM0mfytGsz6hK4yqkSLMHaoAmOdR3MLMjZuSMntuV/+jS1DDC+AgBisWeuow==",
+  "dgSpecHash": "dqs+ofWQ7AhlDYEaooi/oGh5vL37FWPGM+i6ZvFws7cYfVyIwVOVJaSNDnShKU2Mc9pK7j81BgecI7y0oodWMA==",
   "success": true,
   "projectFilePath": "C:\\Users\\natha\\Documents\\Cours\\annee2bis\\semestre4\\appPoke2\\appPoke2\\appPoke2\\appPoke2.csproj",
   "expectedPackageFiles": [
@@ -22,8 +22,8 @@
     "C:\\Users\\natha\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.0\\system.runtime.compilerservices.unsafe.4.7.0.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
-    "C:\\Users\\natha\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\natha\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\natha\\.nuget\\packages\\xamarin.essentials\\1.7.1\\xamarin.essentials.1.7.1.nupkg.sha512",
+    "C:\\Users\\natha\\.nuget\\packages\\xamarin.forms\\5.0.0.2337\\xamarin.forms.5.0.0.2337.nupkg.sha512"
   ],
   "logs": []
 }
