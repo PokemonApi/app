@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("appPoke2.Pages.HomePage.xaml", "Pages/HomePage.xaml", typeof(global::appPoke2.Pages.Page1))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("appPoke2.Pages.HomePage.xaml", "Pages/HomePage.xaml", typeof(global::appPoke2.Pages.HomePage))]
 
 namespace appPoke2.Pages {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Pages\\HomePage.xaml")]
-    public partial class Page1 : global::Xamarin.Forms.ContentPage {
+    public partial class HomePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Page1));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(HomePage));
         }
     }
 }

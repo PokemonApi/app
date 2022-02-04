@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace appPoke2.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page1 : ContentPage
+    public partial class HomePage : ContentPage
     {
-        public Page1()
+        public HomePage()
         {
             InitializeComponent();
         }

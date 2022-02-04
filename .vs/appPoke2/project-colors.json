@@ -5,7 +5,22 @@
       "ProjectGuid": "f5929d20-01c7-41d4-aa1e-8583765bbd54",
       "DisplayName": "appPoke2",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Fichiers divers",
+      "ColorIndex": -1
+    },
+    "78a07771-bd78-4f1e-893f-9309c4e073a2": {
+      "ProjectGuid": "78a07771-bd78-4f1e-893f-9309c4e073a2",
+      "DisplayName": "appPoke2.Android",
+      "ColorIndex": 1
+    },
+    "6dcae3db-6ece-4bfc-8f16-88c32119b349": {
+      "ProjectGuid": "6dcae3db-6ece-4bfc-8f16-88c32119b349",
+      "DisplayName": "appPoke2.iOS",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }
