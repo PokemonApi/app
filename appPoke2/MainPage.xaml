@@ -7,7 +7,7 @@
             <page:HomePage/>
         </ShellContent>
         <ShellContent Icon="plusbutton_87904.png">
-            <page:AjoutPokemon/>
+            <page:AddPokemonPage/>
         </ShellContent>
     </TabBar>
 
