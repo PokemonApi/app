@@ -9,6 +9,9 @@
         <ShellContent Icon="plusbutton_87904.png">
             <page:AddPokemonPage/>
         </ShellContent>
+        <ShellContent>
+            <page:ListPokemon/>
+        </ShellContent>
     </TabBar>
 
 </Shell>

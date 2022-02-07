@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appPoke2.Pages.ListPokemon">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="newPokemon" Placeholder="Nom"/>
+            <Entry x:Name="newDescription" Placeholder="Description"/>
+            <Button x:Name="newButton" Text="Ajouter" Clicked="OnNewButtonClicked"/>
+            <Button x:Name="GetPokemon" Text="Liste" Clicked="OnGetButtonClicked"/>
+            <Label x:Name="statusMessage"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
