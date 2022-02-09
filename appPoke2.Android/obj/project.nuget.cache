@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eoDy9+dw9JxTvrP2QlzWX6PfZKTWtzHjoQ6dU6pUbc4Z4x9TSojk1vjHfl4U9OpS5zjdoohibFDjFKtT+Bcyaw==",
+  "dgSpecHash": "NEEiCUJNLh+JqRNqAfi7cp47pdpBwioPLiMMGo1cTAOAU/Mote8Y0Hno7BQEc7Ql2ZCuHYfeEEC0Rb/s+Zntbg==",
   "success": true,
   "projectFilePath": "C:\\Users\\natha\\Documents\\GitHub\\pokeApi\\app\\appPoke2.Android\\appPoke2.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\natha\\.nuget\\packages\\json.net\\1.0.33\\json.net.1.0.33.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.0\\microsoft.extensions.caching.abstractions.3.1.0.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.0\\microsoft.extensions.caching.memory.3.1.0.nupkg.sha512",

@@ -5,6 +5,7 @@ public class MonoPackageManager_Resources {
 		"appPoke2.Android.dll",
 		"appPoke2.dll",
 		"FormsViewGroup.dll",
+		"Json.Net.dll",
 		"Microsoft.Extensions.Caching.Abstractions.dll",
 		"Microsoft.Extensions.Caching.Memory.dll",
 		"Microsoft.Extensions.DependencyInjection.Abstractions.dll",

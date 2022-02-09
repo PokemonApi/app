@@ -1,12 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:apppoke2="clr-namespace:appPoke2" x:DataType="apppoke2:MainPage"
              x:Class="appPoke2.Pages.AddPokemonPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Add your pokemons right there!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ListView>
+            <ListView.Header>
+                <Label Text="Votre pokedex"></Label>
+            </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    
+                        <Label x:Name="pokemon"/>
+                    
+                        
+                </DataTemplate>
+               
+            </ListView.ItemTemplate>
+        </ListView>
     </ContentPage.Content>
 </ContentPage>
