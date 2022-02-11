@@ -43,10 +43,14 @@ Notre texte clair est : bonJourTout le monde
 
 ## Exercice 3
 
+!!!!! Nous avons réalisé notre algorithme, qui paraissait marcher, malheureusement, lors des phases de tests, nous avons découvert que notre code contenait une erreur que nous n'avons pas pu identifier.
+
+Dans notre méthode GCD prenant en méthode 2 entier, nous calculons simplement le plus grand diviseur commun entre eux et nous le renvoyons.
+Dans la seconde méthode kasiski, nous prenons en paramètre notre texte chiffré, puis créons un tableau (HashMap) pour stocké les séquences avec une clé. Nous initialions 3 boucles for pour comparer toutes les séquences possibles de notre texte chiffré. Si jamais il y a collisions, nous stockons la distance et la séquence dans un tableau. Ce tableau servira par la suite, grâce à l'appel de notre fonction GCD de connaître notre PGDC 2 à 2 afin de connaître la taille de la clé probable. 
 
 
 
-## Authors
+## Auteurs
 
 * **FORESTIER Samuel et VERDEYME Nathan G5A ** 
 
