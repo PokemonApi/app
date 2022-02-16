@@ -1,8 +1,10 @@
-﻿using PokeApiNet;
+﻿using appPoke2.Utils;
+using PokeApiNet;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace appPoke2.ViewModel
 {
@@ -11,13 +13,36 @@ namespace appPoke2.ViewModel
          
         private static ListViewPokemon _instance = new ListViewPokemon();
         public static ListViewPokemon Instance { get { return _instance; } }
-        public ObservableCollection<Pokemon> ListOfPokemon
+        public ObservableCollection<MyPokemon> ListOfPokemon
         {
-            get=> GetValue<ObservableCollection<Pokemon>>();
+            get=> GetValue<ObservableCollection<MyPokemon>>();
                
             set => SetValue(value);
             
         }
 
+        public ListViewPokemon()
+        {
+
+            ListOfPokemon = new ObservableCollection<MyPokemon>();
+
+            InitList();
+
+        }
+
+        public async void InitList()
+        {
+            PokeApiClient pokeClient = new PokeApiClient();
+
+            for (int i = 1; i <= 100; i++)
+            {
+                Pokemon pokemon = await Task.Run(() => pokeClient.GetResourceAsync<Pokemon>(i));
+                MyPokemon mypokemon = new MyPokemon();
+                mypokemon.name = pokemon.Name;
+
+                ListOfPokemon.Add(mypokemon);
+            }
+
+        }
     }
 }

@@ -14,7 +14,7 @@ namespace appPoke2.Repository
         public PokemonRepository(string dpPath)
         {
             connection = new SQLiteAsyncConnection(dpPath);
-            connection.CreateTableAsync<Pokemon>();
+            connection.CreateTableAsync<MyPokemon>();
         }
         public async Task AddNewPokemonAsync(string name)
         {
@@ -22,7 +22,7 @@ namespace appPoke2.Repository
 
             try
             {
-                result = await connection.InsertAsync(new Pokemon { name = name });
+                result = await connection.InsertAsync(new MyPokemon { name = name });
 
                 StatusMessage = $"{result} pokemon ajouté : {name}";
             }
@@ -31,17 +31,17 @@ namespace appPoke2.Repository
                 StatusMessage = $"Impossible d'ajouter le pokemon : {name}.\n {ex.Message}";
             }
         }
-        public async Task<List<Pokemon>> GetPokemonAsync()
+        public async Task<List<MyPokemon>> GetPokemonAsync()
         {
             try
             {
-                return await connection.Table<Pokemon>().ToListAsync();
+                return await connection.Table<MyPokemon>().ToListAsync();
             }
             catch (Exception ex)
             {
                 StatusMessage = $"Impossible de recuperer la liste des pokemons {ex.Message}";
             }
-            return new List<Pokemon>();
+            return new List<MyPokemon>();
         }
     
     }

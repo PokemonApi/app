@@ -1942,3 +1942,4 @@ C:\Users\natha\Documents\GitHub\pokeApi\app\appPoke2.Android\obj\Debug\120\andro
 C:\Users\natha\Documents\GitHub\pokeApi\app\appPoke2.Android\obj\Debug\120\android\assets\SQLitePCLRaw.lib.e_sqlite3.android.dll
 C:\Users\natha\Documents\GitHub\pokeApi\app\appPoke2.Android\obj\Debug\120\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\natha\Documents\GitHub\pokeApi\app\appPoke2.Android\obj\Debug\120\android\assets\Json.Net.dll
+C:\Users\natha\Documents\GitHub\pokeApi\app\appPoke2.Android\obj\Debug\120\res\drawable\liste.png
