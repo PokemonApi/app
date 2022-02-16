@@ -42,12 +42,7 @@ namespace appPoke2.Pages
             
         }
 
-        public InitList()
-        {
-            BindingContext = ListViewPokemon.Instance;
-            ItemsSource = { Binding ListOfPokemon };
-            return ListOfPokemon;
-        }
+        
 
         public PokeApiClient PokeApiClient { get; }
     }
