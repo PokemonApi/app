@@ -12,6 +12,7 @@
                     
                         <Label x:Name="pokemon"/>
                     
+                    
                         
                 </DataTemplate>
                

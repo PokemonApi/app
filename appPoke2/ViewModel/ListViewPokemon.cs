@@ -34,11 +34,15 @@ namespace appPoke2.ViewModel
         {
             PokeApiClient pokeClient = new PokeApiClient();
 
-            for (int i = 1; i <= 100; i++)
+            for (int i = 1; i <= 20; i++)
             {
                 Pokemon pokemon = await Task.Run(() => pokeClient.GetResourceAsync<Pokemon>(i));
                 MyPokemon mypokemon = new MyPokemon();
                 mypokemon.name = pokemon.Name;
+
+                mypokemon.types = pokemon.Types[0].Type.Name;
+                mypokemon.image = pokemon.Sprites.BackShiny;
+                mypokemon.description = pokemon.Species.Name;
 
                 ListOfPokemon.Add(mypokemon);
             }

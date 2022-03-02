@@ -36,6 +36,7 @@ namespace appPoke2.Pages
                 Pokemon pokemon = await Task.Run(()=> poke.GetResourceAsync<Pokemon>(i));
 
                 Debug.WriteLine(pokemon.Name);
+                Debug.WriteLine(pokemon.Types);
                 
             }
            

@@ -6,14 +6,27 @@
              >
     <CollectionView ItemsSource="{Binding ListOfPokemon}">
         <CollectionView.Header>
+            
             <Label Text="Liste de Pokemons"
                    TextColor="Black"></Label>
             
         </CollectionView.Header>
         <CollectionView.ItemTemplate>
             <DataTemplate>
-                <Label Text="{Binding name}"
-                       TextColor="Black"></Label>
+            <StackLayout Margin="5">
+                    <Image Source="{Binding image}"/>
+
+                    <Label Text="{Binding name}"
+                       TextColor="Black"/>
+
+                    <Label Text="{Binding description}"
+                       TextColor="Black"/>
+
+                    <Image Source="{Binding types}"
+                      />
+                
+            
+            </StackLayout>
             </DataTemplate>
         </CollectionView.ItemTemplate>
     </CollectionView>
