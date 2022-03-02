@@ -34,7 +34,7 @@ namespace appPoke2.ViewModel
         {
             PokeApiClient pokeClient = new PokeApiClient();
 
-            for (int i = 1; i <= 20; i++)
+            for (int i = 1; i <= 120; i++)
             {
                 Pokemon pokemon = await Task.Run(() => pokeClient.GetResourceAsync<Pokemon>(i));
                 MyPokemon mypokemon = new MyPokemon();
@@ -42,6 +42,7 @@ namespace appPoke2.ViewModel
                 mypokemon.Id = i;
                 mypokemon.name = pokemon.Name;
                 mypokemon.types = pokemon.Types[0].Type.Name;
+                if(pokemon.Types.Count > 1) mypokemon.types2 = pokemon.Types[1].Type.Name;
                 mypokemon.image = pokemon.Sprites.FrontShiny;
                 mypokemon.description = pokemon.Species.Name;
 

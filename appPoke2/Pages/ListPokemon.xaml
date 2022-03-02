@@ -40,6 +40,8 @@
                     
                     <Label  Text="{Binding types}"
                             TextColor="Black"/>
+                    <Label  Text="{Binding types2}"
+                            TextColor="Black"/>
                 </FlexLayout>
             </DataTemplate>
         </CollectionView.ItemTemplate>

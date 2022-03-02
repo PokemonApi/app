@@ -155,3 +155,4 @@ C:\Users\natha\Documents\GitHub\pokeApi\app\appPoke2.iOS\obj\iPhone\Debug\appPok
 C:\Users\natha\Documents\GitHub\pokeApi\app\appPoke2.iOS\obj\iPhone\Debug\appPoke2.iOS.csproj.CopyComplete
 C:\Users\natha\Documents\GitHub\pokeApi\app\appPoke2.iOS\obj\iPhone\Debug\appPoke2.iOS.exe
 C:\Users\natha\Documents\GitHub\pokeApi\app\appPoke2.iOS\obj\iPhone\Debug\appPoke2.iOS.pdb
+C:\Users\natha\Documents\GitHub\pokeApi\app\appPoke2.iOS\bin\iPhone\Debug\Json.Net.dll
