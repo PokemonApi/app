@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\natha\\Documents\\GitHub\\pokeApi\\app\\appPoke2.Android\\appPoke2.Android.csproj": {}
+    "C:\\Users\\Baptiste\\Documents\\GitHub\\app\\appPoke2.Android\\appPoke2.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\natha\\Documents\\GitHub\\pokeApi\\app\\appPoke2.Android\\appPoke2.Android.csproj": {
+    "C:\\Users\\Baptiste\\Documents\\GitHub\\app\\appPoke2.Android\\appPoke2.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\natha\\Documents\\GitHub\\pokeApi\\app\\appPoke2.Android\\appPoke2.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Baptiste\\Documents\\GitHub\\app\\appPoke2.Android\\appPoke2.Android.csproj",
         "projectName": "appPoke2.Android",
-        "projectPath": "C:\\Users\\natha\\Documents\\GitHub\\pokeApi\\app\\appPoke2.Android\\appPoke2.Android.csproj",
-        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\natha\\Documents\\GitHub\\pokeApi\\app\\appPoke2.Android\\obj\\",
+        "projectPath": "C:\\Users\\Baptiste\\Documents\\GitHub\\app\\appPoke2.Android\\appPoke2.Android.csproj",
+        "packagesPath": "C:\\Users\\Baptiste\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Baptiste\\Documents\\GitHub\\app\\appPoke2.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Baptiste\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
         "frameworks": {
           "monoandroid12.0": {
             "projectReferences": {
-              "C:\\Users\\natha\\Documents\\GitHub\\pokeApi\\app\\appPoke2\\appPoke2.csproj": {
-                "projectPath": "C:\\Users\\natha\\Documents\\GitHub\\pokeApi\\app\\appPoke2\\appPoke2.csproj"
+              "C:\\Users\\Baptiste\\Documents\\GitHub\\app\\appPoke2\\appPoke2.csproj": {
+                "projectPath": "C:\\Users\\Baptiste\\Documents\\GitHub\\app\\appPoke2\\appPoke2.csproj"
               }
             }
           }
@@ -54,21 +50,17 @@
         }
       }
     },
-    "C:\\Users\\natha\\Documents\\GitHub\\pokeApi\\app\\appPoke2\\appPoke2.csproj": {
+    "C:\\Users\\Baptiste\\Documents\\GitHub\\app\\appPoke2\\appPoke2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\natha\\Documents\\GitHub\\pokeApi\\app\\appPoke2\\appPoke2.csproj",
+        "projectUniqueName": "C:\\Users\\Baptiste\\Documents\\GitHub\\app\\appPoke2\\appPoke2.csproj",
         "projectName": "appPoke2",
-        "projectPath": "C:\\Users\\natha\\Documents\\GitHub\\pokeApi\\app\\appPoke2\\appPoke2.csproj",
-        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\natha\\Documents\\GitHub\\pokeApi\\app\\appPoke2\\obj\\",
+        "projectPath": "C:\\Users\\Baptiste\\Documents\\GitHub\\app\\appPoke2\\appPoke2.csproj",
+        "packagesPath": "C:\\Users\\Baptiste\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Baptiste\\Documents\\GitHub\\app\\appPoke2\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Baptiste\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -131,7 +123,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

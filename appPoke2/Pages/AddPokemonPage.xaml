@@ -5,7 +5,8 @@
     <ContentPage.Content>
         <ListView>
             <ListView.Header>
-                <Label Text="Votre pokedex"></Label>
+                <Label Text="Votre ShinyPokedex"
+                       TextColor="Black"/>
             </ListView.Header>
             <ListView.ItemTemplate>
                 <DataTemplate>

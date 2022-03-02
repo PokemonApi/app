@@ -38,10 +38,11 @@ namespace appPoke2.ViewModel
             {
                 Pokemon pokemon = await Task.Run(() => pokeClient.GetResourceAsync<Pokemon>(i));
                 MyPokemon mypokemon = new MyPokemon();
-                mypokemon.name = pokemon.Name;
 
+                mypokemon.Id = i;
+                mypokemon.name = pokemon.Name;
                 mypokemon.types = pokemon.Types[0].Type.Name;
-                mypokemon.image = pokemon.Sprites.BackShiny;
+                mypokemon.image = pokemon.Sprites.FrontShiny;
                 mypokemon.description = pokemon.Species.Name;
 
                 ListOfPokemon.Add(mypokemon);

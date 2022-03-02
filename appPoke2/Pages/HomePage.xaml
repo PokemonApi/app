@@ -4,9 +4,12 @@
              x:Class="appPoke2.Pages.HomePage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="Bienvenue sur ShinyPokeApp!"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" 
+                TextColor="Black"
+                FontSize="Large"
+                FontAttributes="Bold"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

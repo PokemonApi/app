@@ -6,27 +6,41 @@
              >
     <CollectionView ItemsSource="{Binding ListOfPokemon}">
         <CollectionView.Header>
-            
-            <Label Text="Liste de Pokemons"
-                   TextColor="Black"></Label>
-            
+            <Label Text="Liste de Pokemons Shiny"
+                   TextColor="Black"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   BackgroundColor="LightSteelBlue"
+                   
+                   Margin="10">
+            </Label>
+
         </CollectionView.Header>
         <CollectionView.ItemTemplate>
             <DataTemplate>
-            <StackLayout Margin="5">
-                    <Image Source="{Binding image}"/>
-
+                <FlexLayout JustifyContent="SpaceEvenly"
+                            BackgroundColor="AliceBlue"
+                            Margin="10">
+                    <Label Text="{Binding Id}"
+                           TextColor="Black"
+                           FontSize="Medium"
+                           FontAttributes="Bold"/>
+                    
+                    <Image Source="{Binding image}"
+                           WidthRequest="100"
+                           HeightRequest="100"/>
+                    
                     <Label Text="{Binding name}"
-                       TextColor="Black"/>
-
-                    <Label Text="{Binding description}"
-                       TextColor="Black"/>
-
-                    <Image Source="{Binding types}"
-                      />
-                
-            
-            </StackLayout>
+                            TextColor="Black"
+                            FontSize="Medium"
+                            FontAttributes="Bold"
+                            VerticalTextAlignment="Center"/>
+                    
+                    <Label  Text="{Binding types}"
+                            TextColor="Black"/>
+                </FlexLayout>
             </DataTemplate>
         </CollectionView.ItemTemplate>
     </CollectionView>
