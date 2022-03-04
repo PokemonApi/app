@@ -6,7 +6,7 @@
              >
     <CollectionView ItemsSource="{Binding ListOfPokemon}">
         <CollectionView.Header>
-            <Label Text="Liste de Pokemons Shiny"
+            <Label Text="List of Shiny Pokemons"
                    TextColor="Black"
                    VerticalTextAlignment="Center"
                    HorizontalTextAlignment="Center"
@@ -20,29 +20,54 @@
         </CollectionView.Header>
         <CollectionView.ItemTemplate>
             <DataTemplate>
-                <FlexLayout JustifyContent="SpaceEvenly"
-                            BackgroundColor="AliceBlue"
-                            Margin="10">
-                    <Label Text="{Binding Id}"
-                           TextColor="Black"
-                           FontSize="Medium"
-                           FontAttributes="Bold"/>
-                    
-                    <Image Source="{Binding image}"
-                           WidthRequest="100"
-                           HeightRequest="100"/>
-                    
-                    <Label Text="{Binding name}"
-                            TextColor="Black"
-                            FontSize="Medium"
-                            FontAttributes="Bold"
-                            VerticalTextAlignment="Center"/>
-                    
-                    <Label  Text="{Binding types}"
-                            TextColor="Black"/>
-                    <Label  Text="{Binding types2}"
-                            TextColor="Black"/>
+
+
+                <FlexLayout JustifyContent="SpaceBetween"
+                            Padding="10">
+                    <Frame WidthRequest="500"
+                           HeightRequest="100"
+                           CornerRadius="10"
+                           BorderColor="LightSteelBlue"    
+                           BackgroundColor="AliceBlue"
+                           HasShadow="False"
+                           Padding="5,0,5,0">
+
+                        <Grid>
+                            <Label Text="{Binding Id}"
+                                   TextColor="Black"
+                                   FontSize="Medium"
+                                   FontAttributes="Bold"
+                                   HorizontalTextAlignment="Start"
+                                   VerticalTextAlignment="Start"/>
+
+                            <Image Source="{Binding image}"
+                                   WidthRequest="100"
+                                   HeightRequest="100"
+                                   HorizontalOptions="Center"/>
+
+
+                            <Label Text="{Binding name}"
+                                   TextColor="Black"
+                                   FontSize="Medium"
+                                   FontAttributes="Bold"
+                                   HorizontalTextAlignment="End"
+                                   Margin="0,0,0,0"/>
+
+
+                            <StackLayout Orientation="Vertical">
+                                <Label  Text="{Binding types}"
+                                        TextColor="Black"
+                                        HorizontalOptions="End"
+                                        Margin="0,30,0,0"/>
+
+                                <Label  Text="{Binding types2}"
+                                        TextColor="Black"
+                                        HorizontalOptions="End"/>
+                            </StackLayout>
+                        </Grid>
+                    </Frame>
                 </FlexLayout>
+
             </DataTemplate>
         </CollectionView.ItemTemplate>
     </CollectionView>
