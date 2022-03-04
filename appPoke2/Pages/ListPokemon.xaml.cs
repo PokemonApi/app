@@ -23,6 +23,10 @@ namespace appPoke2.Pages
             BindingContext = ListViewPokemon.Instance;
 
         }
+        private async void OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PokemonsDetail());
+        }
         /*
                 private async void OnNewButtonClicked(object sender, EventArgs e)
                 {
