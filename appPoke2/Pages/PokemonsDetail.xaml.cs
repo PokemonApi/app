@@ -1,4 +1,5 @@
-﻿using System;
+﻿using appPoke2.Utils;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,10 @@ namespace appPoke2.Pages
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PokemonsDetail : ContentPage
     {
-        public PokemonsDetail()
+        public PokemonsDetail(MyPokemon pokemon)
         {
             InitializeComponent();
-        }
+            BindingContext = pokemon;
+        }      
     }
 }

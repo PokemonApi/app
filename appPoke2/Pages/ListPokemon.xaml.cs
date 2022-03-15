@@ -23,9 +23,19 @@ namespace appPoke2.Pages
             BindingContext = ListViewPokemon.Instance;
 
         }
-        private async void OnClicked(object sender, EventArgs e)
+
+     
+      
+
+        private async void detail(object sender, SelectionChangedEventArgs e)
         {
-            await Navigation.PushAsync(new PokemonsDetail());
+            MyPokemon myPokemon = e.CurrentSelection.FirstOrDefault() as MyPokemon;
+
+            (sender as CollectionView).SelectedItem = null; 
+                await Navigation.PushAsync(new PokemonsDetail(myPokemon));
+            
+            
+            
         }
         /*
                 private async void OnNewButtonClicked(object sender, EventArgs e)
