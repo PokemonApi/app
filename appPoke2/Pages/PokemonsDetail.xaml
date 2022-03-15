@@ -3,8 +3,52 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="appPoke2.Pages.PokemonsDetail">
     <ContentPage.Content>
-        <FlexLayout>
-        <Label Text="{Binding Id}"></Label>
+        <FlexLayout Direction="Column">
+            <Label  Text="{Binding Id}"
+                    TextColor="Black"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    HorizontalTextAlignment="Center"
+            />
+
+            <Image  Source="{Binding image}"
+                    WidthRequest="200"
+                    HeightRequest="200"
+                    HorizontalOptions="Center"
+            />
+
+            <Label  Text="{Binding name}"
+                    TextColor="Black"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    HorizontalTextAlignment="Center"
+            />
+
+            <StackLayout Orientation="Vertical"
+                         Spacing="20">
+
+                <StackLayout Orientation="Horizontal"
+                             Spacing="20">
+                    <Frame  CornerRadius="5"
+                            BackgroundColor="LightSkyBlue">
+                        <Label  Text="{Binding abilities1]}"
+                                TextColor="Black"
+                                FontSize="Large"
+                                FontAttributes="Bold"
+                                HorizontalTextAlignment="Center"
+                        />
+                    </Frame>
+                    <Frame  CornerRadius="5"
+                            BackgroundColor="LightSkyBlue">
+                        <Label  Text="{Binding abilities2}"
+                                TextColor="Black"
+                                FontSize="Large"
+                                FontAttributes="Bold"
+                                HorizontalTextAlignment="Center"
+                        />
+                    </Frame>
+                </StackLayout>
+            </StackLayout>
         </FlexLayout>
     </ContentPage.Content>
-    </ContentPage>
+</ContentPage>

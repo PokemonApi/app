@@ -40,11 +40,24 @@ namespace appPoke2.ViewModel
                 MyPokemon mypokemon = new MyPokemon();
 
                 mypokemon.Id = i;
+
                 mypokemon.name = pokemon.Name;
+
                 mypokemon.types = pokemon.Types[0].Type.Name;
                 if(pokemon.Types.Count > 1) mypokemon.types2 = pokemon.Types[1].Type.Name;
+
                 mypokemon.image = pokemon.Sprites.FrontShiny;
+
                 mypokemon.description = pokemon.Species.Name;
+
+                if (pokemon.Abilities[0] != null) mypokemon.abilities1 = (pokemon.Abilities[0].Ability.Name);
+                if (pokemon.Abilities[1] != null) mypokemon.abilities2 = (pokemon.Abilities[1].Ability.Name);
+
+                mypokemon.hp = pokemon.Stats[0].BaseStat;
+                mypokemon.attackStats = pokemon.Stats[1].BaseStat;
+                mypokemon.defenseStats = pokemon.Stats[2].BaseStat;
+                mypokemon.specialAttackStats = pokemon.Stats[3].BaseStat;
+                mypokemon.specialDefenseStats = pokemon.Stats[4].BaseStat;
 
                 ListOfPokemon.Add(mypokemon);
             }

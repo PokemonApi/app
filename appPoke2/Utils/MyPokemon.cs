@@ -17,8 +17,13 @@ namespace appPoke2.Utils
         public String types { get; set; }
         public String types2 { get; set; }
 
-
-        public List<PokemonAbility> abilities { get; set; }
+        public int attackStats { get; set; }
+        public int defenseStats { get; set; }
+        public int specialAttackStats { get; set; }
+        public int specialDefenseStats { get; set; }
+        public int hp { get; set; }
+        public String abilities1 { get; set; }
+        public String abilities2 { get; set; }
         public String image { get; set; }
     }
 }

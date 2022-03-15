@@ -52,3 +52,4 @@ C:\Users\Baptiste\Documents\GitHub\app\appPoke2\obj\Debug\netstandard2.0\Pages\L
 C:\Users\natha\Documents\GitHub\pokeApi\app\appPoke2\obj\Debug\netstandard2.0\Pages\PokemonsDetail.xaml.g.cs
 C:\Users\natha\Documents\GitHub\pokeApi\app\appPoke2\obj\Debug\netstandard2.0\appPoke2.csproj.AssemblyReference.cache
 C:\Users\natha\Documents\GitHub\pokeApi\app\appPoke2\obj\Debug\netstandard2.0\refint\appPoke2.dll
+C:\Users\Baptiste\Documents\GitHub\app\appPoke2\obj\Debug\netstandard2.0\Pages\PokemonsDetail.xaml.g.cs
