@@ -30,6 +30,10 @@ namespace appPoke2.Pages
         private async void detail(object sender, SelectionChangedEventArgs e)
         {
             MyPokemon myPokemon = e.CurrentSelection.FirstOrDefault() as MyPokemon;
+            if (myPokemon == null)
+            {
+                return;
+            }
 
             (sender as CollectionView).SelectedItem = null; 
                 await Navigation.PushAsync(new PokemonsDetail(myPokemon));

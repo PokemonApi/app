@@ -31,7 +31,7 @@
                              Spacing="20">
                     <Frame  CornerRadius="5"
                             BackgroundColor="LightSkyBlue">
-                        <Label  Text="{Binding abilities1]}"
+                        <Label  Text="{Binding abilities1}"
                                 TextColor="Black"
                                 FontSize="Large"
                                 FontAttributes="Bold"
@@ -49,6 +49,43 @@
                     </Frame>
                 </StackLayout>
             </StackLayout>
+
+            <Label  Text="{Binding hp}"
+                                TextColor="Black"
+                                FontSize="Large"
+                                FontAttributes="Bold"
+                                HorizontalTextAlignment="Center"
+                        />
+            <Label  Text="{Binding attackStats}"
+                                TextColor="Black"
+                                FontSize="Large"
+                                FontAttributes="Bold"
+                                HorizontalTextAlignment="Center"
+                        />
+            <Label  Text="{Binding defenseStats}"
+                                TextColor="Black"
+                                FontSize="Large"
+                                FontAttributes="Bold"
+                                HorizontalTextAlignment="Center"
+                        />
+            <Label  Text="{Binding specialAttackStats}"
+                                TextColor="Black"
+                                FontSize="Large"
+                                FontAttributes="Bold"
+                                HorizontalTextAlignment="Center"
+                        />
+            <Label  Text="{Binding specialDefenseStats}"
+                                TextColor="Black"
+                                FontSize="Large"
+                                FontAttributes="Bold"
+                                HorizontalTextAlignment="Center"
+                        />
+            <Label  Text="{Binding characteristic}"
+                                TextColor="Black"
+                                FontSize="Large"
+                                FontAttributes="Bold"
+                                HorizontalTextAlignment="Center"
+                        />
         </FlexLayout>
     </ContentPage.Content>
 </ContentPage>

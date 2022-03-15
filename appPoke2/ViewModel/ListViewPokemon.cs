@@ -37,6 +37,8 @@ namespace appPoke2.ViewModel
             for (int i = 1; i <= 120; i++)
             {
                 Pokemon pokemon = await Task.Run(() => pokeClient.GetResourceAsync<Pokemon>(i));
+                PokemonSpecies pokemon1 = await Task.Run(() => pokeClient.GetResourceAsync(pokemon.Species));
+
                 MyPokemon mypokemon = new MyPokemon();
 
                 mypokemon.Id = i;
@@ -50,15 +52,15 @@ namespace appPoke2.ViewModel
 
                 mypokemon.description = pokemon.Species.Name;
 
-                if (pokemon.Abilities[0] != null) mypokemon.abilities1 = (pokemon.Abilities[0].Ability.Name);
-                if (pokemon.Abilities[1] != null) mypokemon.abilities2 = (pokemon.Abilities[1].Ability.Name);
+               if (pokemon.Abilities[0] != null) mypokemon.abilities1 = (pokemon.Abilities[0].Ability.Name);
+               if (pokemon.Abilities.Count>1) mypokemon.abilities2 = (pokemon.Abilities[1].Ability.Name); 
 
                 mypokemon.hp = pokemon.Stats[0].BaseStat;
                 mypokemon.attackStats = pokemon.Stats[1].BaseStat;
                 mypokemon.defenseStats = pokemon.Stats[2].BaseStat;
                 mypokemon.specialAttackStats = pokemon.Stats[3].BaseStat;
                 mypokemon.specialDefenseStats = pokemon.Stats[4].BaseStat;
-
+                mypokemon.characteristic = pokemon1.FlavorTextEntries.Find((flavor) => flavor.Language.Name == "en").FlavorText;
                 ListOfPokemon.Add(mypokemon);
             }
 

@@ -17,6 +17,7 @@ namespace appPoke2.Utils
         public String types { get; set; }
         public String types2 { get; set; }
 
+        public String characteristic { get; set; }  
         public int attackStats { get; set; }
         public int defenseStats { get; set; }
         public int specialAttackStats { get; set; }
