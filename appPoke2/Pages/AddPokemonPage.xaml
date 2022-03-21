@@ -3,21 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:apppoke2="clr-namespace:appPoke2" x:DataType="apppoke2:MainPage"
              x:Class="appPoke2.Pages.AddPokemonPage">
     <ContentPage.Content>
-        <ListView>
-            <ListView.Header>
-                <Label Text="Votre ShinyPokedex"
-                       TextColor="Black"/>
-            </ListView.Header>
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    
-                        <Label x:Name="pokemon"/>
-                    
-                    
-                        
-                </DataTemplate>
-               
-            </ListView.ItemTemplate>
-        </ListView>
+        <StackLayout>
+            <Entry x:Name="newPokemon" Placeholder="Nom"/>
+            <Entry x:Name="newDescriptions" Placeholder="Descriptions"/>
+            <Button x:Name="newImage" Clicked="OnTakePicture" Text="Choisir un image"/>
+            <Button x:Name="NewButton"  Text="Ajouter" Clicked="OnNewButtonClicked"/>
+            <Button x:Name="GetButton" Text="Afficher" Clicked="OnGetButtonClicked"/>
+            <Label x:Name="statusMessage"/>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Pe5oyYFUJjHF/mkpdq1YHWxdcx2aQckivoI8AGTLHCPVmAPlQ3DfAbZZvVVko6w8bTGHxI1skvUWE4fWM4DCZA==",
+  "dgSpecHash": "BchnPCqHLdS3qXsT2Wocpq+HbpPV1AMS5hfNQOm4xJthurk9pS9dx2hURsgz2TG5NkUpSlNYcx4G07KBvZAgVw==",
   "success": true,
   "projectFilePath": "C:\\Users\\natha\\Documents\\GitHub\\pokeApi\\app\\appPoke2.iOS\\appPoke2.iOS.csproj",
   "expectedPackageFiles": [
@@ -25,6 +25,7 @@
     "C:\\Users\\natha\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.0\\system.runtime.compilerservices.unsafe.4.7.0.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\natha\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],

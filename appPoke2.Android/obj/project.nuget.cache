@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UXn0baRp03/u8Inh921VOgbXGmGIRGtV+Jadlp2h83wj0TZyNoTXxSPHBlvA4N0mYU6E30XR6PO3SolSwngFQg==",
+  "dgSpecHash": "8uTEWfsOQaHFrFAnaS0VgkQ1L1sFRVbZtTTo1GBhxBGGN+FNIrBrgIBNApIlOXqQq6UOcamrB7ZwufhBaebs/g==",
   "success": true,
   "projectFilePath": "C:\\Users\\natha\\Documents\\GitHub\\pokeApi\\app\\appPoke2.Android\\appPoke2.Android.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,7 @@
     "C:\\Users\\natha\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.0\\system.runtime.compilerservices.unsafe.4.7.0.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\natha\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\xamarin.androidx.annotation\\1.2.0.1\\xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\xamarin.androidx.annotation.experimental\\1.1.0.1\\xamarin.androidx.annotation.experimental.1.1.0.1.nupkg.sha512",

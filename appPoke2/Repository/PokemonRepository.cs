@@ -4,6 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using appPoke2.Utils;
 using SQLite;
+using Plugin.Media;
 namespace appPoke2.Repository
 {
     public class PokemonRepository
@@ -16,15 +17,15 @@ namespace appPoke2.Repository
             connection = new SQLiteAsyncConnection(dpPath);
             connection.CreateTableAsync<MyPokemon>();
         }
-        public async Task AddNewPokemonAsync(string name)
+        public async Task AddNewPokemonAsync(string name, string descriptions,  String image)
         {
             int result = 0;
 
             try
             {
-                result = await connection.InsertAsync(new MyPokemon { name = name });
+                result = await connection.InsertAsync(new MyPokemon { name = name, description = descriptions, image= image});
 
-                StatusMessage = $"{result} pokemon ajouté : {name}";
+                StatusMessage = $"{result} pokemon ajouté : {name}, {descriptions}, {image}";
             }
             catch (Exception ex)
             {
